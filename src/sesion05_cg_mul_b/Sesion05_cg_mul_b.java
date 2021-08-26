@@ -1,10 +1,12 @@
 package sesion05_cg_mul_b;
 
+import java.awt.Graphics;
 import java.util.Scanner;
 
 public class Sesion05_cg_mul_b 
 {
     static int Tras1, Tras2;
+     Graphics lapiz;
 
     public static void main(String[] args) 
     {

@@ -15,16 +15,17 @@ public class Cuadrado
     }
     public void crearCuadrado()
     {
-        int linea1 = c.getX()+lado;
-        int linea2 = c.getY()+lado;
+        int punto1 = c.getX()+lado;
+        int punto2 = c.getY()+lado;
+        //int punto3= c.getX()+
     }
     public void Traslacion(int x, int y)
     {
         
     }
-    public void Escalado()
+    public void Escalado(int s)
     {
-    
+       lado= (int)(lado * (1+s/100.0f)); 
     }
     public void Rotacion()
     {
